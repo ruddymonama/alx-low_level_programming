@@ -1,1 +1,1 @@
-This repo is for C-programming.
+This is where C files are stored for 0x00.
