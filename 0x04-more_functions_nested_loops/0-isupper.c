@@ -4,7 +4,7 @@
  * returns o if otherwise
  */
 
-int isupper(char c){
+int _isupper(char c){
 	if (c >= 'A' && c <= 'Z')
 	{
 		return(1);
