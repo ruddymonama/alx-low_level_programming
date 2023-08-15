@@ -13,6 +13,6 @@ int _islower(int alpha)
 	}
 	else
 	{
-		retrun(0);
+		return (0);
 	}
 }
