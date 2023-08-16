@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		int u = 0;
 
-		while (u < 9)
+		while (u <= 9)
 		{
 			int v = t * u;
 
@@ -24,11 +24,11 @@ void times_table(void)
 			else if (u != 0)
 			{
 				_putchar(' ');
-				_putchar(v + '0');
+				_putchar((t * u) + '0');
 			}
 			else
 			{
-				_putchar(v + '0');
+				_putchar((t * u) + '0');
 			}
 			if (u != 9)
 			{
