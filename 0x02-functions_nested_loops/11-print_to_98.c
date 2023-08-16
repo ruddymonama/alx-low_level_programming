@@ -19,7 +19,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (; n <- 97; n++)
+		for (; n <= 97; n++)
 		{
 			printf("%d, ", n);
 		}
