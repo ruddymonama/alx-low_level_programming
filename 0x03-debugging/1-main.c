@@ -7,7 +7,7 @@
 int main(void)
 {
 	/* int c = 0; */
-	printf("Infinite loop incoming :((\n");
+	printf("Infinite loop incoming :(\n");
 
 /*
  * 	while (i < 10)
@@ -15,6 +15,6 @@ int main(void)
  * 		putchar(i);
  * 	}
  */
-	printf("Infinite loop deflected! \\0o0/\n");
+	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }	
