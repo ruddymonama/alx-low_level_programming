@@ -6,8 +6,16 @@
  */
 int main(void)
 {
-	int d = 0;
+	int a, b, c;
+	a = 20;
+	b = 0;
+	c = -20;
+	/* test positive*/
+	positive_or_negative(a);
+	/*test zero*/
+	positive_or_negative(b);
+	/* test negative*/
+	positive_or_negative(c);
 
-	positive_or_negative(d);
 	return (0);
 }
