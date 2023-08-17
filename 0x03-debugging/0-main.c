@@ -7,9 +7,11 @@
 int main(void)
 {
 	int a, b, c;
+
 	a = 20;
 	b = 0;
 	c = -20;
+
 	/* test positive*/
 	positive_or_negative(a);
 	/*test zero*/
