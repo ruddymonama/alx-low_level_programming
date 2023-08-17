@@ -9,7 +9,7 @@ int main(void)
 	int b = 0;
 
 	/* test negative*/
-	positive_or_negative(c);
+	positive_or_negative(b);
 
 	return (0);
 }
