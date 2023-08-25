@@ -13,6 +13,6 @@ int _isdigit(int c)
 	}
 	else
 	{
-		retruen (0);
+		return (0);
 	}
 }
